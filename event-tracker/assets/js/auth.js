@@ -136,7 +136,7 @@ if (authForm) {
     } else if (found.role === "staff") {
       window.location.href = "dashboard.html";
     } else if (found.role === "admin") {
-      window.location.href = "main-admin.html";
+      window.location.href = "./admin/main-admin.html";
     } else {
       window.location.href = "index.html"; // fallback
     }
